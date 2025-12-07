@@ -28,7 +28,7 @@ Our model maintains high accuracy while significantly reducing computational cos
 Using Gini Impurity, we identified that **Source Bytes** and **Service Rate** are the most critical features for detecting malicious traffic.
 
 <p align="center">
-  <img src="images/feature_importance.png" width="600" title="Feature Importance">
+  <img src="images/feature_importance_top10.png" width="600" title="Feature Importance">
 </p>
 
 ## 🛠️ Installation & Usage
