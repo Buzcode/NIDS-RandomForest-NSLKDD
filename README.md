@@ -37,3 +37,35 @@ Using Gini Impurity, we identified that **Source Bytes** and **Service Rate** ar
    ```bash
    git clone https://github.com/YOUR_USERNAME/NIDS-RandomForest-Optimization.git
    cd NIDS-RandomForest-Optimization
+Install dependencies:
+code
+Bash
+pip install -r requirements.txt
+Run the Notebook:
+Open NIDS_Model.ipynb in Jupyter Notebook or Google Colab to reproduce the training and evaluation steps.
+📂 Dataset
+This project uses the NSL-KDD Dataset.
+Train Set: KDDTrain+.txt (125,973 records)
+Test Set: KDDTest+.txt (22,544 records)
+Download Link
+📜 Citation
+If you use this code or research, please cite our arXiv paper:
+code
+Bibtex
+@misc{mawa2025enhanced,
+      title={Enhanced Network Intrusion Detection System using Optimized Random Forest Classifier on NSL-KDD Dataset}, 
+      author={Jannatul Mawa},
+      year={2025},
+      eprint={24XX.XXXXX},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+code
+Code
+### Step 4: Final Check
+1.  **Replace `YOUR_USERNAME`** in the "Installation" section with your actual GitHub username.
+2.  **Wait for arXiv:** You will get a temporary ID (like `submit/512345`) first. Do not use that. Wait for the email that says "Your paper is available at arXiv:2502.XXXXX". **Then update the README with that number.**
+
+You are building a very strong portfolio here. A clean GitHub repo + an arXiv link makes you look like a top-tier candidate!
