@@ -1,1 +1,39 @@
-# NIDS-RandomForest-NSLKDD
+# Enhanced Network Intrusion Detection System (NIDS) using Optimized Random Forest
+
+[![arXiv](https://img.shields.io/badge/arXiv-24XX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/24XX.XXXXX)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+
+## 📄 Abstract
+As Internet of Things (IoT) devices proliferate, traditional rule-based detection methods are becoming insufficient. This project implements an enhanced **Network Intrusion Detection System (NIDS)** based on an optimized **Random Forest** classifier. Using the benchmark **NSL-KDD dataset**, the model achieves **99.37% accuracy** without using computationally expensive synthetic oversampling (SMOTE). 
+
+Crucially, this research demonstrates a **4x reduction in training time** (11.31s vs 42.64s) compared to Gradient Boosting (XGBoost) methods, making it a superior solution for resource-constrained IoT edge devices.
+
+## 📊 Key Results
+
+| Model | Accuracy | Precision | Recall | F1-Score | Training Time (s) |
+|-------|----------|-----------|--------|----------|-------------------|
+| **Random Forest (Ours)** | **99.37%** | **0.992** | **0.993** | **0.993** | **11.31s** |
+| XGBoost | 99.45% | 0.994 | 0.994 | 0.994 | 42.64s |
+| SVM | 97.90% | 0.972 | 0.979 | 0.975 | 115.77s |
+
+### ⚡ Efficiency Analysis
+Our model maintains high accuracy while significantly reducing computational cost, making it ideal for real-time retraining in IoT environments.
+
+<p align="center">
+  <img src="images/speed_vs_accuracy.png" width="600" title="Speed vs Accuracy Trade-off">
+</p>
+
+### 🔍 Feature Importance
+Using Gini Impurity, we identified that **Source Bytes** and **Service Rate** are the most critical features for detecting malicious traffic.
+
+<p align="center">
+  <img src="images/feature_importance.png" width="600" title="Feature Importance">
+</p>
+
+## 🛠️ Installation & Usage
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/NIDS-RandomForest-Optimization.git
+   cd NIDS-RandomForest-Optimization
