@@ -35,8 +35,8 @@ Using Gini Impurity, we identified that **Source Bytes** and **Service Rate** ar
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/NIDS-RandomForest-Optimization.git
-   cd NIDS-RandomForest-Optimization
+   git clone https://github.com/Buzcode/NIDS-RandomForest-NSLKDD.git
+   cd NIDS-RandomForest-NSLKDD
 Install dependencies:
 code
 Bash
