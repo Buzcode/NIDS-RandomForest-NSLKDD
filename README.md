@@ -43,10 +43,9 @@ Using Gini Impurity, we identified that **Source Bytes** and **Service Rate** ar
    ```bash
    git clone https://github.com/Buzcode/NIDS-RandomForest-NSLKDD.git
    cd NIDS-RandomForest-NSLKDD
-Install dependencies:
-code
-Bash
-pip install -r requirements.txt
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
 Run the Notebook:
 Open NIDS_Model.ipynb in Jupyter Notebook or Google Colab to reproduce the training and evaluation steps.
 📂 Dataset
@@ -68,8 +67,6 @@ Bibtex
 }
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-code
-Code
 ### Step 4: Final Check
 1.  **Replace `YOUR_USERNAME`** in the "Installation" section with your actual GitHub username.
 2.  **Wait for arXiv:** You will get a temporary ID (like `submit/512345`) first. Do not use that. Wait for the email that says "Your paper is available at arXiv:2502.XXXXX". **Then update the README with that number.**
